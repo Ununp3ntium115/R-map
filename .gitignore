@@ -71,3 +71,44 @@ libz/configure.log
 # Rust build artifacts
 target/
 Cargo.lock
+
+# UA Testing - Test outputs
+test_scan.json
+quick_test.json
+performance_test.json
+*.test.json
+ua_test_results/
+audit_logs/
+audit_reports/
+
+# Sensitive files - NEVER COMMIT
+*.asc
+*.key
+*.pem
+*.pfx
+staff@pyrodifr.com_*
+*SECRET*
+*PRIVATE*
+
+# Logs
+*.log
+docker_build.log
+
+# Temporary files
+NUL
+*.tmp
+*.temp
+*.bak
+
+# Local development directories
+.claude/
+rmap-mcp/
+rmap-servicenow/
+rmap-ui/
+docs/context/
+
+# Archives
+*.tar.gz
+*.zip
+*.tar
+*.rar
