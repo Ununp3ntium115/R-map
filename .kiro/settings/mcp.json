@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "pyro-claude-integration": {
+      "command": "/home/user/R-map/target/release/pyro-mcp-server",
+      "args": [],
+      "env": {
+        "PYRO_DB_PATH": "/var/lib/pyro/integration.db",
+        "RUST_LOG": "info"
+      },
+      "disabled": false,
+      "autoApprove": [],
+      "description": "PYRO + R-Map + Claude AI Integration (18 MCP tools)"
+    },
+    "openai": {
+      "command": "C:\\Users\\xserver\\.local\\bin\\mcp-server-openai.exe",
+      "args": [],
+      "env": {
+        "OPENAI_API_KEY": "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",
+        "OPENAI_API_BASE": "https://api.openai.com/v1"
+      },
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
