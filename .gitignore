@@ -104,7 +104,6 @@ NUL
 .claude/
 rmap-mcp/
 rmap-servicenow/
-rmap-ui/
 docs/context/
 
 # Archives
@@ -112,3 +111,24 @@ docs/context/
 *.zip
 *.tar
 *.rar
+
+# Node modules and npm
+node_modules/
+*/node_modules/
+**/node_modules/
+package-lock.json
+npm-debug.log*
+
+# TypeScript build outputs
+dist/
+*/dist/
+*.js.map
+*.d.ts
+
+# Deployment packages
+rmap-pyro-deployment/
+rmap-pyro-deployment.zip
+
+# Test reports
+pyro_integration_test_report.html
+comprehensive_ua_test_report.html
