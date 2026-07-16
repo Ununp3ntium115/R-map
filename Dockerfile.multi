@@ -20,7 +20,7 @@ COPY crates ./crates
 RUN cargo build --release --workspace
 
 # Stage 2: Runtime image (minimal)
-FROM debian:bookworm-slim
+FROM debian:12.15-slim
 
 # Install runtime dependencies
 RUN apt-get update && apt-get install -y \
